@@ -12,9 +12,9 @@ A sample of the analytics page
 
 # To Install
 * Download or clone the repo
-* open terminal inside root directory of cloned folder
-* type yarn to install the  all dependencies
-* yarn start to run the app
+* open yhe terminal inside the root directory of cloned folder
+* type yarn and press enter to install the all dependencies
+* type yarn start to run the app
 
 # FAQs
 * Contact spectrumsun@hotmail.com
