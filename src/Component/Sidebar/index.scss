@@ -54,14 +54,15 @@
       padding: 10px 0px;
       
       &:hover {
-        font-weight: bold;
         color:#060213;
+        font-family: 'GelionMedium';
       }
     }
   }
 
   &--arrow {
     align-self: baseline;
+    font-family: 'GelionMedium';
   }
 
   &--main {
@@ -80,17 +81,17 @@
 
     &:hover {
       color: #6837EF;
-      font-weight: bold;
+      font-family: 'GelionMedium';
     }
   }
 
   &--active {
-    font-weight: bold;
     color: #6837EF;
+    font-family: 'GelionMedium';
   }
 
   &--actives {
-    font-weight: bold !important;
     color:#060213 !important;
+    font-family: 'GelionMedium';
   }
 }

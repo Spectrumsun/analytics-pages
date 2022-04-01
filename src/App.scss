@@ -106,11 +106,13 @@
       color: #060213;
       border-bottom: 1px solid  #6837EF;
       cursor: pointer;
+      font-family: 'GelionMedium';
     }
   }
   &--active {
     color: #060213 !important;
     border-bottom: 1px solid  #6837EF;
+    font-family: 'GelionMedium';
   }
 }
 

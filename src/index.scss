@@ -1,15 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
+@font-face {
+  font-family: 'GelionLight';
+  src: url('./font/Gelion-Light.ttf');
 }
 
+@font-face {
+  font-family: 'GelionMedium';
+  src: url('./font/Gelion-Medium.ttf');
+}
+
+body {
+  margin: 0;
+  font-family: 'GelionMedium';
+  overflow: hidden;
+}
 
 h1,h2,h3,h4,h5,h6,p {
   margin: 0px;
   padding: 0px;
+}
+
+
+p {
+  font-family: 'GelionLight';
+}
+
+li {
+  font-family: 'GelionLight';
 }
