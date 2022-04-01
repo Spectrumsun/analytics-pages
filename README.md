@@ -8,13 +8,7 @@ A sample of the analytics page
    * Front-end: React
 
 # Features
-   * A User can signup and signin 
-   * A page where an authenticated user can add a new event
-   * A page, section or view where an authenticated user can Modify the event he/she added
-   * A page, section or view where an authenticated user can Delete the event he/she added
-   * A page where an admin can add a new center
-   * A page, section or view where an admin can modify the details of a center
-   * A page showing  a single center and the events slated for that center
+   * A User can view details of the analytics 
 
 # To Install
 * Download or clone the repo
