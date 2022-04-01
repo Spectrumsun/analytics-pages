@@ -10,14 +10,14 @@ const SidebarList = ({ item, selected, setSelected, setSubMenu, subMenu }) => (
         <p 
           className={`${item === selected && 'sidebar--active'} sidebar--text`}
         >
-            {item}
+          {item}
         </p>
       </div>
       {
         item === selected && (
           <ul>
             {
-              sidebarSubMenu[item].map((item) => console.log(item) || 
+              sidebarSubMenu[item].map((item) => 
                 <li 
                   onClick={() => setSubMenu(item)}
                   className={`${item === subMenu && 'sidebar--actives'}`}
